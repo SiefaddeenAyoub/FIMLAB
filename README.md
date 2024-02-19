@@ -60,7 +60,7 @@
 13. Here we are looking at the security events that are normally in the VM's event viewer/security event but since we had the VM connect to the log analytics workspace, information now pops up in our log analytics workspace. As shown in the image you can see the 3 failed login attempts.
 <img src="https://i.imgur.com/PxtG97F.png"/>
 
-14. After waiting 20 minutes for the VM to connect to the log analytics workspace we are able to get the raw data that was in the Failed RDP data, which includes the fake samples as well as our 3 attempting wrong logins (WE DONT HAVE TO WORRY ABOUT THE SAMPLES POPPING UP ON THE MAP BECAUSE WHEN WE EXTRACT THE DATA WE CAN MAKE IT TO WHERE IT DOES NOT PULL ANY INFORMATION THAT HAS SAMPLE IN THE LINE)
+14. After waiting 20 minutes for the VM to connect to the log analytics workspace we are able to get the raw data that was in the Failed RDP data, which includes the fake samples as well as our 3 attempting wrong logins (We don't have to worry about the samples popping up on the map because when we extract the data we can make it to where it does not pull any information that has "sample" in the line)
 <img src="https://i.imgur.com/3O8C3nS.png"/>
 
 15. Now we are extracting fields from the log for longitude, latitude, Country, state, etc.
