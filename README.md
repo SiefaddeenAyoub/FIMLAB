@@ -1,37 +1,31 @@
-<h1>JWipe - FIM LAB</h1>
+# SIEM Azure Sentinel
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+## Objective
 
-<h2>Description</h2>
-In this lab we gain a better understanding of what integrity means in Cyber  Security through a live example of file integrity monitoring via a live demo! I do some live/realistic coding and build a file Integrity monitor.
-<br />
+ I setup Azure Sentinel (SIEM) and connected it to a live virtual machine acting as a honey pot. We will observe live attacks (RDP Brute Force) from all around the world. We will use a custom PowerShell script to look up the attackers Geolocation information and plot it on the Azure Sentinel Map!
 
+### Skills Learned
+[Bullet Points - Remove this afterwards]
 
-<h2>Languages and Utilities Used</h2>
+- Advanced understanding of SIEM concepts and practical application.
+- Proficiency in analyzing and interpreting network logs.
+- Ability to generate and recognize attack signatures and patterns.
+- Enhanced knowledge of network protocols and security vulnerabilities.
+- Development of critical thinking and problem-solving skills in cybersecurity.
 
-- <b>PowerShell</b> 
+### Tools Used
+[Bullet Points - Remove this afterwards]
 
-<h2>Environments Used </h2>
+- Security Information and Event Management (SIEM) system for log ingestion and analysis.
+- VM
+- IPEGEOLOCATION.IO
+- Microsoft Azure
 
-- <b>Windows 11</b> (21H2)
+## Steps
+drag & drop screenshots here or use imgur and reference them using imgsrc
 
-<h2>Program walk-through:</h2>
+Every screenshot should have some text explaining what the screenshot is about.
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Example below.
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+*Ref 1: Network Diagram*
