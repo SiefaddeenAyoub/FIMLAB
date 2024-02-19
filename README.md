@@ -2,7 +2,7 @@
 
 ## Objective
 
- I set up Azure Sentinel (SIEM) and connected it to a live virtual machine acting as a honey pot. We will observe live attacks (RDP Brute Force) from all around the world. We will use a custom PowerShell script to look up the attackers Geolocation information and plot it on the Azure Sentinel Map!
+ I set up Azure Sentinel (SIEM) and connected it to a live virtual machine acting as a honey pot. We will observe live attacks (RDP Brute Force) from all around the world. We will use a custom PowerShell script to look up the attacker's Geolocation information and plot it on the Azure Sentinel Map!
 
 ### Skills Learned
 
@@ -81,7 +81,7 @@
 20. If we open our VM again and look at the Powershell script we can see the Chinese attempting to log in.
 <img src="https://i.imgur.com/A63uibj.png"/>
 
-21. After a couple more hours pass by we can see that Taiwan has joined in on the action.'
+21. After a couple more hours pass by we can see that Taiwan has joined in on the action.
 <img src="https://i.imgur.com/RXUrv5s.png"/>
 
 22. We left the VM running overnight and here are the results.
